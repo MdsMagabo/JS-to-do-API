@@ -38,6 +38,6 @@ tbody {
 
 @media screen and (max-width: 486px) {
     .table {
-        max-width: 40%;
+        max-width: 55%;
     }
 }
