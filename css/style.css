@@ -16,7 +16,7 @@
     flex-direction: column;
     margin: auto;
     text-align: center;
-    width: 20%;
+    max-width: 40%;
 }
 .sub-text {
     display: flex;
@@ -34,4 +34,10 @@ tbody {
     flex-direction: column;
     align-items: center;
 
+}
+
+@media screen and (max-width: 486px) {
+    .table {
+        max-width: 40%;
+    }
 }
